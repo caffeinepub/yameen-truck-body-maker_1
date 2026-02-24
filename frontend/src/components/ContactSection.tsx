@@ -20,8 +20,8 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Address',
-    value: 'Industrial Area, Lahore',
-    sub: 'Punjab, Pakistan',
+    value: 'Saharanpur Rd, Gangoh Khalsa',
+    sub: 'Uttar Pradesh 247341',
   },
   {
     icon: Clock,
@@ -162,7 +162,7 @@ export default function ContactSection() {
                       name="phone"
                       value={form.phone}
                       onChange={handleChange}
-                      placeholder="+92 300 0000000"
+                      placeholder="+91 97197 74964"
                       className="bg-steel-950 border-steel-700 text-steel-100 placeholder:text-steel-600 focus:border-amber-500 focus:ring-amber-500/20 rounded-sm"
                     />
                     {errors.phone && <p className="text-red-400 text-xs">{errors.phone}</p>}

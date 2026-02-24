@@ -2,10 +2,27 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-update-the-contact-us-section-in-contactsection-tsx-to-replace-the-placeholder-phone-number-with-9719774964-and-the-placeholder-email-address-with-mursaleensaifi14-gmail-com-also-update-the-footer-component-to-reflect-the-same-real-contact-details-wherever-phone-or-email-are-displayed",
-      "featureTitle": "Update the Contact Us section in ContactSection.tsx to replace the placeholder phone number with '9719774964' and the placeholder email address with 'mursaleensaifi14@gmail.com'. Also update the Footer component to reflect the same real contact details wherever phone or email are displayed.",
+      "featureId": "feature-update-the-address-card-in-contactsection-tsx-to-display-the-real-business-address-saharanpur-rd-gangoh-khalsa-uttar-pradesh-247341-replacing-any-placeholder-address-text",
+      "featureTitle": "Update the address card in ContactSection.tsx to display the real business address: 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341' replacing any placeholder address text.",
       "files": [
-        "frontend/src/components/ContactSection.tsx",
+        "frontend/src/components/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-footer-component-footer-tsx-to-display-the-real-business-address-saharanpur-rd-gangoh-khalsa-uttar-pradesh-247341-wherever-address-information-is-shown-replacing-any-placeholder-address",
+      "featureTitle": "Update the Footer component (Footer.tsx) to display the real business address 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341' wherever address information is shown, replacing any placeholder address.",
+      "files": [
         "frontend/src/components/Footer.tsx"
       ],
       "components": [
@@ -16,7 +33,7 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-8"
+        "REQ-10"
       ],
       "confidence": "high"
     }

@@ -1,33 +1,41 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-02-24T14:37:23.793Z",
+  "generatedAt": "2026-02-24T14:48:05.922Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
   },
   "requirements": {
-    "total": 1,
-    "implemented": 1,
+    "total": 2,
+    "implemented": 2,
     "items": [
       {
-        "id": "REQ-8",
-        "summary": "Update the Contact Us section in ContactSection.tsx to replace the placeholder phone number with '9719774964' and the placeholder email address with 'mursaleensaifi14@gmail.com'. Also update the Footer component to reflect the same real contact details wherever phone or email are displayed.",
+        "id": "REQ-10",
+        "summary": "Update the Footer component (Footer.tsx) to display the real business address 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341' wherever address information is shown, replacing any placeholder address.",
         "status": "implemented",
         "plannedFiles": [
-          "frontend/src/components/ContactSection.tsx",
           "frontend/src/components/Footer.tsx"
         ],
         "matchedFiles": [
-          "frontend/src/components/ContactSection.tsx",
           "frontend/src/components/Footer.tsx"
+        ]
+      },
+      {
+        "id": "REQ-9",
+        "summary": "Update the address card in ContactSection.tsx to display the real business address: 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341' replacing any placeholder address text.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/ContactSection.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/ContactSection.tsx"
         ]
       }
     ]
   },
   "changedFiles": [
     "build-request.json",
-    "build-template/README.md",
     "feature_evidence.json",
     "frontend-file-summaries.txt",
     "frontend-implementation-plan.json",

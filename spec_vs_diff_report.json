@@ -1,11 +1,11 @@
 {
   "kind": "spec_vs_diff_report",
   "version": "1.0",
-  "generatedAt": "2026-02-24T14:37:23.791Z",
-  "summary": "The diff implements REQ-8 correctly. ContactSection.tsx now shows the real phone number '9719774964' and email 'mursaleensaifi14@gmail.com', and Footer.tsx also displays the same real contact details. No placeholder contact information remains. No files under frontend/src/hooks/ or frontend/src/components/ui/ were modified. Layout, styling, and structure appear unchanged.",
+  "generatedAt": "2026-02-24T14:48:05.920Z",
+  "summary": "Both REQ-9 and REQ-10 appear to be implemented. ContactSection.tsx displays the address split across 'value' and 'sub' fields ('Saharanpur Rd, Gangoh Khalsa' and 'Uttar Pradesh 247341'), and the frontend-file-summaries.txt confirms Footer.tsx also displays the full address. No placeholder text remains, and no hallucinated features were detected.",
   "missing_requirements": [],
   "hallucinated_features": [],
-  "confidence": 0.97,
+  "confidence": 0.92,
   "changed_files": [
     "frontend-file-summaries.txt",
     "frontend/src/components/ContactSection.tsx",

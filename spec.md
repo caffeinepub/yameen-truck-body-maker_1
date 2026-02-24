@@ -1,11 +1,10 @@
 # Specification
 
 ## Summary
-**Goal:** Replace placeholder contact details with real phone number and email address in the Contact Us section and Footer.
+**Goal:** Display the real business address in the Contact Us section and the Footer.
 
 **Planned changes:**
-- Update the phone number to `9719774964` in `ContactSection.tsx`
-- Update the email address to `mursaleensaifi14@gmail.com` in `ContactSection.tsx`
-- Update the Footer component to display the same phone number `9719774964` and email `mursaleensaifi14@gmail.com`
+- Update the address card in `ContactSection.tsx` to show "Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341", replacing any placeholder text
+- Update `Footer.tsx` to show "Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341" in the contact info area, replacing any placeholder text
 
-**User-visible outcome:** Visitors will see the real phone number and email address in both the Contact Us section and the Footer, with no placeholder or dummy contact information remaining.
+**User-visible outcome:** Visitors will see the correct business address in both the Contact Us section and the footer of the website.

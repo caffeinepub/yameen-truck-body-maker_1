@@ -4,8 +4,8 @@
   "frontend/src/components/HeroSection.tsx": "Full-screen hero section with the generated background image, company name, tagline \"Built Tough. Built Right. Built to Last.\", CTA buttons, and animated stats row.",
   "frontend/src/components/AboutSection.tsx": "About Us section describing Yameen Truck Body Maker's expertise, values, and key differentiators, with a 4-card highlights grid and a CTA button.",
   "frontend/src/components/ServicesSection.tsx": "Services section displaying 6 service cards (fabrication, repair, painting, fleet, steel/aluminum, hydraulic) with icons, descriptions, feature lists, and a CTA banner.",
-  "frontend/src/components/ContactSection.tsx": "Contact section with a validated 4-field contact form, success state, and 4 contact info cards — now showing real phone number '9719774964' and email 'mursaleensaifi14@gmail.com'.",
-  "frontend/src/components/Footer.tsx": "Full footer with brand identity, quick links, services list, and contact info — now displaying real phone number '9719774964' and email 'mursaleensaifi14@gmail.com', with copyright year and caffeine.ai attribution.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with a validated 4-field contact form, success state, and 4 contact info cards — showing real phone number '9719774964', email 'mursaleensaifi14@gmail.com', and address 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341'.",
+  "frontend/src/components/Footer.tsx": "Full footer with brand identity, quick links, services list, and contact info — displaying real phone '9719774964', email 'mursaleensaifi14@gmail.com', and address 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341', with copyright year and caffeine.ai attribution.",
   "frontend/src/index.css": "Global styles with OKLCH industrial dark theme tokens, Barlow Condensed/Barlow Google Fonts import, and smooth scroll behavior.",
   "frontend/tailwind.config.js": "Extended Tailwind config with Barlow font families, custom steel (dark charcoal) and amber (orange) color palettes, and industrial design tokens."
 }

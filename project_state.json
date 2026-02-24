@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 5,
+  "projectStateVersion": 7,
   "summary": "Building a website for Yameen Truck Body Maker company",
   "architectural_notes": [],
   "known_issues": [],
@@ -69,6 +69,22 @@
         "REQ-8"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-update-the-address-card-in-contactsection-tsx-to-display-the-real-business-address-saharanpur-rd-gangoh-khalsa-uttar-pradesh-247341-replacing-any-placeholder-address-text",
+      "title": "Update the address card in ContactSection.tsx to display the real business address: 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341' replacing any placeholder address text.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-footer-component-footer-tsx-to-display-the-real-business-address-saharanpur-rd-gangoh-khalsa-uttar-pradesh-247341-wherever-address-information-is-shown-replacing-any-placeholder-address",
+      "title": "Update the Footer component (Footer.tsx) to display the real business address 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341' wherever address information is shown, replacing any placeholder address.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -81,6 +97,12 @@
     {
       "id": "AR-2",
       "summary": "Update Contact Us section with real phone (9719774964) and email (mursaleensaifi14@gmail.com)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Add business address 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341' to Contact Us section and footer",
       "reqIds": [],
       "status": "pending"
     }

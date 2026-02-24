@@ -1,37 +1,52 @@
 {
   "kind": "build_request",
-  "title": "Update Contact Us section with real phone and email details",
+  "title": "Add business address to Contact Us section and footer",
   "projectName": "Yameen Truck Body Maker",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-8",
-      "text": "Update the Contact Us section in ContactSection.tsx to replace the placeholder phone number with '9719774964' and the placeholder email address with 'mursaleensaifi14@gmail.com'. Also update the Footer component to reflect the same real contact details wherever phone or email are displayed.",
+      "id": "REQ-9",
+      "text": "Update the address card in ContactSection.tsx to display the real business address: 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341' replacing any placeholder address text.",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-8"
+          "msg-latest"
         ],
         "quotes": [
-          "Contact information is 9719774964 email id mursaleensaifi14@gmail.com"
+          "Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341 Q7V7+37 Gangoh Khalsa, Uttar Pradesh"
         ]
       },
       "acceptanceCriteria": [
-        "The Contact Us section displays the phone number '9719774964' in the phone contact info card.",
-        "The Contact Us section displays the email 'mursaleensaifi14@gmail.com' in the email contact info card.",
-        "The Footer component displays the same phone number '9719774964' and email 'mursaleensaifi14@gmail.com' in its contact details area.",
-        "No placeholder or dummy contact information remains visible anywhere on the page."
+        "The address card in the Contact Us section displays 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341'",
+        "No placeholder address text remains in ContactSection.tsx"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Update the Footer component (Footer.tsx) to display the real business address 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341' wherever address information is shown, replacing any placeholder address.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341 Q7V7+37 Gangoh Khalsa, Uttar Pradesh"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer displays 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341' in the contact info section",
+        "No placeholder address text remains in Footer.tsx"
       ]
     }
   ],
   "constraints": [
-    "Do not change the layout, styling, or structure of the Contact Us section or Footer.",
-    "Do not modify any files under frontend/src/hooks/ or frontend/src/components/ui/."
+    "Do not modify phone number '9719774964' or email 'mursaleensaifi14@gmail.com' already set in ContactSection.tsx and Footer.tsx",
+    "Do not alter the visual theme or layout of the Contact Us section or Footer"
   ],
   "nonGoals": [
-    "Adding a physical address or business hours.",
-    "Implementing backend form submission or email delivery.",
-    "Changes to any section other than ContactSection and Footer."
+    "Adding a map or geolocation embed",
+    "Changing any other contact details",
+    "Modifying any other sections of the website"
   ],
   "imageRequirements": {
     "required": [],

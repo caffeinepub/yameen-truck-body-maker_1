@@ -1,27 +1,35 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Update Contact Us section with real phone and email details",
+  "title": "Add business address to Contact Us section and footer",
   "requirements": [
     {
-      "id": "REQ-8",
-      "summary": "Replace placeholder contact information with real phone number '9719774964' and email 'mursaleensaifi14@gmail.com' in ContactSection and Footer components",
+      "id": "REQ-9",
+      "summary": "Update ContactSection.tsx address card to display the real business address",
       "acceptanceCriteria": [
-        "The Contact Us section displays the phone number '9719774964' in the phone contact info card.",
-        "The Contact Us section displays the email 'mursaleensaifi14@gmail.com' in the email contact info card.",
-        "The Footer component displays the same phone number '9719774964' and email 'mursaleensaifi14@gmail.com' in its contact details area.",
-        "No placeholder or dummy contact information remains visible anywhere on the page."
+        "The address card in the Contact Us section displays 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341'",
+        "No placeholder address text remains in ContactSection.tsx"
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/ContactSection.tsx",
           "operation": "modify",
-          "description": "Update the phone contact info card to display '9719774964' and the email contact info card to display 'mursaleensaifi14@gmail.com', replacing any existing placeholder values. Preserve all existing layout, styling, icons, and structure of the contact info cards."
-        },
+          "description": "Replace the placeholder address text in the address card with the real business address 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341'. Locate the address card (identified by MapPin icon) and update its text content while preserving the card structure, icon, and styling. Do not modify phone number '9719774964' or email 'mursaleensaifi14@gmail.com'."
+        }
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "summary": "Update Footer.tsx to display the real business address in contact info section",
+      "acceptanceCriteria": [
+        "Footer displays 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341' in the contact info section",
+        "No placeholder address text remains in Footer.tsx"
+      ],
+      "file_operations": [
         {
           "path": "frontend/src/components/Footer.tsx",
           "operation": "modify",
-          "description": "Update the contact details area in the footer to display the phone number '9719774964' and email 'mursaleensaifi14@gmail.com', replacing any existing placeholder values. Maintain all existing footer layout, quick links, services list, and styling."
+          "description": "Replace the placeholder address text in the Footer's contact info section with the real business address 'Saharanpur Rd, Gangoh Khalsa, Uttar Pradesh 247341'. Locate the address display in the contact information area and update its content while maintaining the existing layout, styling, and structure. Do not modify phone number '9719774964' or email 'mursaleensaifi14@gmail.com'."
         }
       ]
     }
