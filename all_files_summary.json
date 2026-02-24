@@ -1,0 +1,20 @@
+{
+  "backend/main.mo": "Minimal Motoko backend actor with no methods or state defined.",
+  "feature_evidence.json": "Feature evidence report confirming that real contact details (phone '9719774964' and email 'mursaleensaifi14@gmail.com') were applied to ContactSection.tsx and Footer.tsx.",
+  "frontend-file-summaries.txt": "JSON document providing one-sentence summaries of each frontend source file for build planning reference.",
+  "frontend/index.css": "Tailwind CSS entry file that defines OKLCH-based CSS custom property tokens for light and dark themes including colors, borders, and sidebar variables.",
+  "frontend/index.html": "HTML entry point for the Vite/React app, setting the page title to 'Yameen Truck Body Maker' and mounting the React root.",
+  "frontend/src/App.tsx": "Root React component that assembles the full single-page layout by composing Navigation, HeroSection, AboutSection, ServicesSection, ContactSection, and Footer.",
+  "frontend/src/components/AboutSection.tsx": "About Us section describing Yameen Truck Body Maker's expertise and values, featuring a two-column layout with descriptive text, a bullet list of key values, and a 4-card highlights grid.",
+  "frontend/src/components/ContactSection.tsx": "Contact section with four info cards (phone '9719774964', email 'mursaleensaifi14@gmail.com', address, hours) and a validated 4-field contact form with success state.",
+  "frontend/src/components/Footer.tsx": "Full-width footer with brand identity, quick-links, services list, and contact info displaying real phone '9719774964' and email 'mursaleensaifi14@gmail.com', plus a copyright bar.",
+  "frontend/src/components/HeroSection.tsx": "Full-screen hero section with a background image, overlays, company name heading, tagline, two CTA buttons, an animated stats row, and a scroll-down indicator.",
+  "frontend/src/components/Navigation.tsx": "Responsive fixed navigation bar for the Yameen Truck Body Maker site with smooth-scroll links, scroll-based background change, and a mobile hamburger menu.",
+  "frontend/src/components/ServicesSection.tsx": "Displays a grid of six truck body services (fabrication, repair, painting, fleet, steel/aluminum, hydraulics) with icons, descriptions, and feature lists.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and caches an ICP backend actor using React Query, switching between anonymous and authenticated actors based on the current Internet Identity.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides an InternetIdentityProvider and useInternetIdentity hook for managing DFINITY AuthClient login, logout, and identity state with status tracking.",
+  "frontend/src/index.css": "Global CSS file that imports Barlow fonts, sets up Tailwind directives, and defines CSS custom properties for the industrial dark theme with amber accents.",
+  "frontend/src/main.tsx": "React app entry point that mounts the App component wrapped with QueryClientProvider and InternetIdentityProvider.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the theme with Barlow fonts, oklch-based CSS variable color tokens, and a custom industrial steel color palette alongside amber accents.",
+  "project_state.json": "Tracks the project state and versioning for the Yameen Truck Body Maker website, listing all existing features, requirements, and architectural notes across multiple build iterations."
+}

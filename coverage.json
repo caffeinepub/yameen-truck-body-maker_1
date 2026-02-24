@@ -1,0 +1,41 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-24T14:37:23.793Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-8",
+        "summary": "Update the Contact Us section in ContactSection.tsx to replace the placeholder phone number with '9719774964' and the placeholder email address with 'mursaleensaifi14@gmail.com'. Also update the Footer component to reflect the same real contact details wherever phone or email are displayed.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/ContactSection.tsx",
+          "frontend/src/components/Footer.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/ContactSection.tsx",
+          "frontend/src/components/Footer.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/ContactSection.tsx",
+    "frontend/src/components/Footer.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

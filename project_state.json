@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Building a website for Yameen Truck Body Maker company",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-hero-section-with-the-company-name-yameen-truck-body-maker-prominently-displayed-a-tagline-about-truck-body-manufacturing-and-a-call-to-action-button-e-g-get-a-quote-or-contact-us",
+      "title": "Create a hero section with the company name 'Yameen Truck Body Maker' prominently displayed, a tagline about truck body manufacturing, and a call-to-action button (e.g., 'Get a Quote' or 'Contact Us').",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-us-section-describing-yameen-truck-body-maker-as-a-professional-truck-body-manufacturing-and-fabrication-company-highlighting-craftsmanship-experience-and-reliability",
+      "title": "Create an 'About Us' section describing Yameen Truck Body Maker as a professional truck body manufacturing and fabrication company, highlighting craftsmanship, experience, and reliability.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-services-section-listing-the-core-offerings-of-a-truck-body-maker-business-such-as-custom-truck-body-fabrication-truck-body-repair-painting-finishing-and-fleet-customization",
+      "title": "Create a 'Services' section listing the core offerings of a truck body maker business, such as custom truck body fabrication, truck body repair, painting & finishing, and fleet customization.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-us-section-with-a-simple-contact-form-name-phone-email-message-fields-and-placeholder-contact-details-phone-number-email-address",
+      "title": "Create a 'Contact Us' section with a simple contact form (name, phone, email, message fields) and placeholder contact details (phone number, email, address).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-sticky-navigation-bar-at-the-top-with-the-company-logo-name-yameen-truck-body-maker-and-links-to-sections-home-about-services-contact",
+      "title": "Create a sticky navigation bar at the top with the company logo/name 'Yameen Truck Body Maker' and links to sections: Home, About, Services, Contact.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-bold-industrial-visual-theme-using-a-dark-steel-charcoal-color-palette-with-strong-orange-or-amber-accents-heavy-typography-and-rugged-layout-patterns-that-reflect-the-truck-manufacturing-industry-apply-this-theme-consistently-across-all-sections",
+      "title": "Apply a bold, industrial visual theme using a dark steel/charcoal color palette with strong orange or amber accents, heavy typography, and rugged layout patterns that reflect the truck manufacturing industry. Apply this theme consistently across all sections.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-generated-images-hero-background-and-company-logo-as-static-assets-from-the-frontend-public-assets-generated-directory-and-use-them-in-the-hero-section-and-navigation-bar-respectively",
+      "title": "Render the generated images (hero background and company logo) as static assets from the frontend/public/assets/generated directory and use them in the hero section and navigation bar respectively.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-us-section-in-contactsection-tsx-to-replace-the-placeholder-phone-number-with-9719774964-and-the-placeholder-email-address-with-mursaleensaifi14-gmail-com-also-update-the-footer-component-to-reflect-the-same-real-contact-details-wherever-phone-or-email-are-displayed",
+      "title": "Update the Contact Us section in ContactSection.tsx to replace the placeholder phone number with '9719774964' and the placeholder email address with 'mursaleensaifi14@gmail.com'. Also update the Footer component to reflect the same real contact details wherever phone or email are displayed.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Company website for Yameen Truck Body Maker",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Update Contact Us section with real phone (9719774964) and email (mursaleensaifi14@gmail.com)",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Yameen Truck Body Maker",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

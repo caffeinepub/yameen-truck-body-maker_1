@@ -1,0 +1,40 @@
+{
+  "kind": "build_request",
+  "title": "Update Contact Us section with real phone and email details",
+  "projectName": "Yameen Truck Body Maker",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-8",
+      "text": "Update the Contact Us section in ContactSection.tsx to replace the placeholder phone number with '9719774964' and the placeholder email address with 'mursaleensaifi14@gmail.com'. Also update the Footer component to reflect the same real contact details wherever phone or email are displayed.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-8"
+        ],
+        "quotes": [
+          "Contact information is 9719774964 email id mursaleensaifi14@gmail.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Contact Us section displays the phone number '9719774964' in the phone contact info card.",
+        "The Contact Us section displays the email 'mursaleensaifi14@gmail.com' in the email contact info card.",
+        "The Footer component displays the same phone number '9719774964' and email 'mursaleensaifi14@gmail.com' in its contact details area.",
+        "No placeholder or dummy contact information remains visible anywhere on the page."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not change the layout, styling, or structure of the Contact Us section or Footer.",
+    "Do not modify any files under frontend/src/hooks/ or frontend/src/components/ui/."
+  ],
+  "nonGoals": [
+    "Adding a physical address or business hours.",
+    "Implementing backend form submission or email delivery.",
+    "Changes to any section other than ContactSection and Footer."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

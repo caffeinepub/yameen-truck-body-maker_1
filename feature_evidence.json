@@ -1,0 +1,24 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-contact-us-section-in-contactsection-tsx-to-replace-the-placeholder-phone-number-with-9719774964-and-the-placeholder-email-address-with-mursaleensaifi14-gmail-com-also-update-the-footer-component-to-reflect-the-same-real-contact-details-wherever-phone-or-email-are-displayed",
+      "featureTitle": "Update the Contact Us section in ContactSection.tsx to replace the placeholder phone number with '9719774964' and the placeholder email address with 'mursaleensaifi14@gmail.com'. Also update the Footer component to reflect the same real contact details wherever phone or email are displayed.",
+      "files": [
+        "frontend/src/components/ContactSection.tsx",
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
